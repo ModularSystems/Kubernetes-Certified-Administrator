@@ -14,8 +14,8 @@ These are the exam objectives you review and understand in order to pass the tes
 
 * [CNCF Exam Curriculum repository ](https://github.com/cncf/curriculum)
 
-### [Core Concepts](https://v1-8.docs.kubernetes.io/docs/concepts/) 19%
-* [Understand the Kubernetes API primitives](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.9/)
+### [Core Concepts](https://v1-10.docs.kubernetes.io/docs/concepts/) 19%
+* [Understand the Kubernetes API primitives](https://v1-10.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/)
   * [concepts: Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)
   * youtube: [Kubernetes Webinar Series - Kubernetes Architecture 101](https://www.youtube.com/watch?v=zeS6OyDoy78)
 * [Understand the Kubernetes cluster architecture](https://kubernetes.io/docs/concepts/overview/components/)
@@ -23,7 +23,7 @@ These are the exam objectives you review and understand in order to pass the tes
 * [Understand Services and other network primitives](https://kubernetes.io/docs/concepts/services-networking/service/)
   * youtube: [Life of a Packet [I] - Michael Rubin, Google](https://www.youtube.com/watch?v=0Omvgd7Hg1I)
   * youtube: [The ins and outs of networking in Google Container Engine and Kubernetes (Google Cloud Next '17)](https://www.youtube.com/watch?v=y2bhV81MfKQ)
-  
+
 *  Example Nginx deployment:
 ```yaml
 apiVersion: apps/v1beta2 # for versions before 1.8.0 use apps/v1beta1
